@@ -125,7 +125,7 @@ Values:AddKeybind({
 ]]
  
 Values:AddSlider({
-    Name = "Sensitivity",
+    Name = "Smoothness",
     Value = Settings.Sensitivity,
     Callback = function(New, Old)
         Settings.Sensitivity = New
@@ -280,7 +280,7 @@ FunctionsSection:AddButton({
    FunctionsSection:AddButton({
     Name = "Main Discord Server",
     Callback = function()
-        setclipboard("https://discord.gg/8CbZTCUHN8")
+        setclipboard("https://discord.gg/JwGDMj47wg")
     end
 })
 
